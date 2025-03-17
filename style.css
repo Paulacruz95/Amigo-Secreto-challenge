@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Indie+Flower&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --fuente-Krona: "Krona One", sans serif;
+    --fuente-indie: "Indie Flower", sans serif;
+    --fuente_bangers: "Bangers", sans serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 10;
+    border-radius: 0%;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background: linear-gradient(#3D0301 10%, #B03052 33.33%, #D76C82 70%, #EBE8DB 100%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body::before {
+    background-image: url("imagenes/amigo-secreto-amigo-secreto-portugues-brasileno-vector-letras-mano-moderna_282901-524.avif");
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    opacity: 0.4;
+}
+
+.fondo {
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 24px;
+    border: none;
+    box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.fondo_contenido {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 80;
+}
+
+.fondo_informaciones {
+    flex: 2;
+    padding: 1rem;
+    gap: 10px;
+}
+
+.boton_asignar {
+    border-radius: 20px;
+    background: #410445;
+    padding: 1rem;
+    width: 30%;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    margin-top:0;
+    font-family: var(--fuente-Krona);
+    font-size: 1rem;
+
+}
+
+.boton_sortear {
+    border-radius: 20px;
+    background: #410445;
+    padding: 1rem;
+    width: 80%;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    margin-top: 0.5rem;
+    font-family: var(--fuente-Krona);
+    font-size: 1.05rem;
+    gap:2px;
+
+}
+
+.boton_reiniciar {
+    border-radius: 20px;
+    background: #410445;
+    padding: 1rem;
+    width: 80%;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    margin-top: 0.5rem;
+    font-family: var(--fuente-Krona);
+    font-size: 1.05rem;
+    gap:2px;
+
+}
+
+.boton_reiniciar:disabled {
+    background: gray;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.fondo_texto {
+    width: 200%;
+}
+
+.cuadro_ingreso {
+    width: 80%;
+    height: 10px;
+    border-radius: 16px;
+    background-color: #FFF;
+    border: black;
+    color: #000000;
+    padding: 2rem;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: var(--fuente-indie);
+}
+
+.cuadro_amigos {
+    display: flex;
+    padding:1rem;
+    width: 80%;
+    height: 200px;
+    border-radius: 16px;
+    background-color: none;
+    border: none;
+    color: #000000;
+    overflow-y: auto;
+    word-wrap: break-word;
+    padding: 0.5rem;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: var(--fuente-indie);
+    gap:5px;
+}
+
+.manipular-usuario{
+    display: flex;
+    gap: 0em;
+    width: 100%;
+    padding: 0.5rem;
+    align-items: center;
+}
+
+.container_botones {
+    width: 40%;
+    padding: 0%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: left;
+    gap: 0px;
+}
+
+.boton_asignar:hover{
+    background-color: #A5158C;
+}
+
+.boton_sortear:hover{
+    background-color: #A5158C;
+}
+
+.boton_reiniciar:hover{
+    background-color: gray;
+}
+
+.container_nombres {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    word-wrap: break-word;
+}
+
+h1 {
+    font-family: var(--fuente-Krona);
+    font-size: 30px;
+    padding-bottom: 0.5rem;
+}
+
+p,
+button {
+    font-family: var(--fuente-indie);
+}
+
+.texto_parrafo {
+    font-size: 25px;
+    font-weight: 100;
+}
