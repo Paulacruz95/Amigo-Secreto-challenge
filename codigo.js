@@ -1,6 +1,6 @@
 let listaAmigos=[];
 let intentos=0;
-let numeroMaximo=2;
+let numeroMaximo=10;
 
 function asignarTextoElemento(elemento,texto){
     let elementoHTML= document.querySelector(elemento);
