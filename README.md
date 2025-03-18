@@ -17,28 +17,28 @@ Este proyecto es una página web sencilla en HTML, CSS y JavaScript que permite 
 ### 🖥️ Pantalla principal
 ![Pantalla principal](./imagenes/pantalla_principal.png)
 
-> Aquí se muestra el campo de entrada de nombres y el botón para realizar el sorteo.>
+> Aquí se muestra el campo de entrada de nombres y el botón para realizar el sorteo.
 
 ### 🎲 Error espacios en blanco
 ![Resultado del sorteo](./imagenes/espacios_en_blanco.png)
 
-> Esta es la vista donde se muestra que se genera un alert cuando se intentan ingresar espacios en blanco>
+> Esta es la vista donde se muestra que se genera un alert cuando se intentan ingresar espacios en blanco.
 
 
 ### 🎲 Repetición amigo
 ![Resultado del sorteo](./imagenes/repetir_nombre.png)
 
-> En esta imagen se puede ver que se genera un error cuando se repite un nombre> 
+> En esta imagen se puede ver que se genera un error cuando se repite un nombre.
 
 ### 🎲 Reinicio juego
 ![Resultado del sorteo](./imagenes/Juego_reinicia.png)
 
-> Esta es la vista donde se muestra que el juego se reiniciara si no se ingresan todos los nombres o se oprime el botón sortear.>
+> Esta es la vista donde se muestra que el juego se reiniciara si no se ingresan todos los nombres o se oprime el botón sortear.
 
 ### 🎲 Resultado sorteo
 ![Resultado del sorteo](./imagenes/momento_sortear.png)
 
-> Esta es la vista donde se muestra el nombre de la persona que te toca como amigo secreto.> 
+> Esta es la vista donde se muestra el nombre de la persona que quedo como amigo secreto.
 ---
 
 ## ⚙️ Tecnologías utilizadas
