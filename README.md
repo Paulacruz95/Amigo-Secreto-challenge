@@ -35,11 +35,17 @@ Este proyecto es una página web sencilla en HTML, CSS y JavaScript que permite 
 
 > Esta es la vista donde se muestra que el juego se reiniciara si no se ingresan todos los nombres o se oprime el botón sortear.
 
-### 🎲 Resultado sorteo
+### 🎲 Momento para oprimir el botón sortear
 ![Resultado del sorteo](./imagenes/momento_sortear.png)
 
-> Esta es la vista donde se muestra el nombre de la persona que quedo como amigo secreto.
+> Esta es la vista donde se puede oprimir el botón sortear.
+
+### 🎲 Resultado Amigo Secreto
+![Resultado del sorteo](./imagenes/amigo_revelado.png)
+
+> Esta es la vista donde puedes ver quien fue asignado como tu amigo secreto. 
 ---
+
 
 ## ⚙️ Tecnologías utilizadas
 
