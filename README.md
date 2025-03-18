@@ -15,7 +15,7 @@ Este proyecto es una página web sencilla en HTML, CSS y JavaScript que permite 
 ## 📸 Capturas de pantalla
 
 ### 🖥️ Pantalla principal
-![Pantalla principal](./imagenes/PANTALLA PRINCIPAL.png)
+![Pantalla principal](./imagenes/pantalla_principal.png)
 
 > Aquí se muestra el campo de entrada de nombres y el botón para realizar el sorteo.>
 
