@@ -43,7 +43,7 @@ Este proyecto es una página web sencilla en HTML, CSS y JavaScript que permite 
 ### 🎲 Resultado Amigo Secreto
 ![Resultado del sorteo](./imagenes/amigo_revelado.png)
 
-> Esta es la vista donde puedes ver quien fue asignado como tu amigo secreto y se activa el botón sortear. 
+> Esta es la vista donde puedes ver quien fue asignado como tu amigo secreto y se activa el botón reiniciar. 
 ---
 
 
