@@ -24,6 +24,12 @@ Este proyecto es una página web sencilla en HTML, CSS y JavaScript que permite 
 
 > Esta es la vista donde se muestra que se genera un alert cuando se intentan ingresar espacios en blanco>
 
+
+### 🎲 Repetición amigo
+![Resultado del sorteo](./imagenes/repetir_nombre.png)
+
+> En esta imagen se puede ver que se genera un error cuando se repite un nombre> 
+
 ### 🎲 Reinicio juego
 ![Resultado del sorteo](./imagenes/Juego_reinicia.png)
 
