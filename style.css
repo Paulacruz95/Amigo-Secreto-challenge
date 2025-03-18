@@ -204,3 +204,22 @@ button {
     font-size: 25px;
     font-weight: 100;
 }
+
+@media(max-width: 1400px ){
+
+    .fondo{
+        padding: 2%;
+    }
+
+    .fondo_contenido{
+        justify-content: center;
+    }
+    .fondo_informaciones{
+        flex-direction: column-reverse;
+        padding: 2%;
+    }
+
+    .fondo_texto{
+        width: auto; /*se puede colocar tambien 100% */
+    }
+}
